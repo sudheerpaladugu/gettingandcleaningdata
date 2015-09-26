@@ -55,12 +55,12 @@ There are 5 parts:
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ## How ```run_analysis.R``` implements the above steps:
- > Require ```reshapre2``` and ```data.table``` librareis.
- > Load both test and train data sets from 'UCI_HAR_Dataset/test and train' folders
- > Load the features and activity labels data from "UCI_HAR_Dataset" folder.
- > Add/Update test and train datasets rows/columns with with activities/featues.
- > Extract the mean and standard deviation column names and data.
- > Merge test and train data sets.
- > Process the data with 'melt()' function by passing dataset id and measuring variables(columns).
- > Extract tidy data from processed dataset using 'dcast()' function.
- > Create a file  with tiday data.
+* Require ```reshapre2``` and ```data.table``` librareis.
+* Load both test and train data sets from 'UCI_HAR_Dataset/test and train' folders
+* Load the features and activity labels data from "UCI_HAR_Dataset" folder.
+* Add/Update test and train datasets rows/columns with with activities/featues.
+* Extract the mean and standard deviation column names and data.
+* Merge test and train data sets.
+* Process the data with 'melt()' function by passing dataset id and measuring variables(columns).
+* Extract tidy data from processed dataset using 'dcast()' function.
+* Create a file  with tiday data.
