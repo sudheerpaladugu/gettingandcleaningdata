@@ -56,7 +56,7 @@ There are 5 parts:
 
 ## How ```run_analysis.R``` implements the above steps:
 * Require ```reshapre2``` and ```data.table``` librareis.
-* Load both test and train data sets from 'UCI_HAR_Dataset/test and train' folders
+* Load test and train data sets from 'UCI_HAR_Dataset/test and train' folders
 * Load the features and activity labels data from "UCI_HAR_Dataset" folder.
 * Add/Update test and train datasets rows/columns with with activities/featues.
 * Extract the mean and standard deviation column names and data.
